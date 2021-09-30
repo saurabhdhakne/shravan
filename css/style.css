@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+.cimg {
+  margin-top: -10px;
+  transition: 1s all;
+}
+h1 {
+  font-family: "ELEPHANT";
+}
+.logo {
+  width: 50px;
+}
+.main {
+  height: 100vh;
+  overflow-y: hidden;
+}
+#imgWhite {
+  display: none;
+}
+.btn {
+  padding: 10px 10%;
+  background: snow;
+  color: #333333;
+  border: 2px solid #333333;
+  transition: 0.5s all;
+  border-radius: 0;
+}
+.btnE {
+  background: transparent;
+  color: snow;
+  border: 2px solid white;
+}
+.btnE-reverse {
+  background: white;
+  color: #333333;
+  border: 0px;
+}
+.btnE-reverse:hover {
+  background: transparent;
+  color: snow;
+}
+.btnE2 {
+  background: transparent;
+  color: #333333;
+  border: 2px solid #333333;
+}
+.btn:hover {
+  /* box-shadow: .5px 5px 15px rgba(0, 0, 0, .5); */
+  background: #333333;
+  color: lavender;
+}
+.btnE:hover {
+  background: white;
+  color: #333333;
+}
+.btnE2:hover {
+  background: #333333;
+  color: white;
+}
+.carousel img {
+  width: 100%;
+}
+.nav {
+  z-index: 99;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.nav a:hover {
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #302f2f;
+  /* border-radius: 10px; */
+}
+.navMob,
+.navMob a {
+  display: none;
+}
+
+.sidenav {
+  margin-top: 10vh;
+  height: 90vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Kanit", sans-serif;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #e7e7e7;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.footer2 {
+  background: black;
+  color: snow;
+}
+.classinitial {
+  background: rgba(0, 0, 0, 0.6);
+}
+.classfinal {
+  background: #302f2f;
+  color: snow;
+  transition: 0.5s all;
+}
+.classfinal a {
+  color: snow;
+}
+.carousel-item .data {
+  z-index: 5;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.carousel-item .data {
+  color: #ffff;
+}
+.carousel-item .data h1 {
+  font-size: 4em;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+.carousel-item .data h5 {
+  font-size: 2em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main2 h1 {
+  font-family: "ELEPHANT";
+  font-weight: 900;
+}
+.main2 p {
+  text-indent: 5%;
+  font-family: "Kanit", sans-serif;
+}
+.main2 img {
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.main3 {
+  background: url("./../images/edit1.png");
+  background-size: auto 100%;
+  background-position: fixed;
+  background-attachment: fixed;
+  overflow-y: hidden;
+  color: white;
+}
+.main4 {
+  padding: 10vh 5% 20vh 5%;
+}
+.main4 h1 {
+  margin-bottom: 10vh;
+  font-size: 4em;
+}
+.main4 .card {
+  background-color: #85ffbd;
+  transition: 0.5s all;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  font-family: "Kanit";
+}
+.main4 .card:hover {
+  cursor: pointer;
+  transition: 0.5s all;
+  background-color: #8bc6ec;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.main4 img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: -50%;
+  border: 10px solid white;
+}
+@media screen and (max-height: 720px) {
+  .sidenav {
+    padding-top: 10vh;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #nav a,
+  #nav img,
+  #nav,
+  .classfinal,
+  .classinitial {
+    display: none;
+    background: none;
+  }
+  #carouselExampleControls {
+    margin-top: 10vh;
+  }
+  .navMob {
+    display: block;
+    z-index: 999;
+    background: #302f2f;
+  }
+  .navMob a {
+    color: snow;
+    display: block;
+  }
+  .footer {
+    padding: 5vh 5%;
+    text-align: center;
+  }
+  .footer .btn {
+    padding: 15px 10%;
+  }
+  .photography h1 {
+    font-size: 10vw;
+  }
+}
+
+.nav a {
+  color: snow;
+}
