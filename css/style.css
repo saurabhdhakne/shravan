@@ -22,6 +22,10 @@ h1 {
   height: 100vh;
   overflow-y: hidden;
 }
+.main h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
 #imgWhite {
   display: none;
 }
