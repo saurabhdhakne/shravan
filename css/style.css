@@ -79,6 +79,10 @@ h1 {
   transition: 0.5s all;
 }
 
+.nav .btn {
+  border-radius: 40px;
+}
+
 .nav a:hover {
   text-decoration: none;
 }
